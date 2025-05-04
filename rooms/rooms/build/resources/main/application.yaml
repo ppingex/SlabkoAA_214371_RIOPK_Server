@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: clients
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    url: jdbc:postgresql://localhost:5436/roomsdb
+    password: test
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8083
+
+
+integration:
+  bookings-service: "http://localhost:8082"
