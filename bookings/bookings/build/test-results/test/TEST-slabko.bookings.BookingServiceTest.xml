@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="slabko.bookings.BookingServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-04T13:53:33.479Z" hostname="DESKTOP-0K1C4KR" time="1.083">
+  <properties/>
+  <testcase name="findAvailableRooms_ShouldReturnRoomsThatAreAvailable()" classname="slabko.bookings.BookingServiceTest" time="1.064"/>
+  <testcase name="updateBookingStatuses_ShouldUpdateStatusesCorrectly()" classname="slabko.bookings.BookingServiceTest" time="0.014"/>
+  <system-out><![CDATA[16:53:34.558 [Test worker] INFO slabko.bookings.BookingService -- Updated booking fda4fdcf-888a-428d-bf2f-c1a3dcd4d52c to CURRENT
+16:53:34.563 [Test worker] INFO slabko.bookings.BookingService -- Updated booking 8ebb6eb8-d768-4e71-9615-6b23c4dbfec7 to PAST
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\ASUS\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
